@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: plone6
+    env: docker
+    repo: https://github.com/yourusername/plone-render
+    region: oregon  # Choose the closest region
+    plan: free
+    envVars:
+      - key: SITE_NAME
+        value: Plone
+      - key: ADMIN_PASSWORD
+        value: admin
