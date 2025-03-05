@@ -2,7 +2,7 @@ services:
   - type: web
     name: plone6
     env: docker
-    repo: https://github.com/yourusername/plone-render
+    repo: https://github.com/append08/Render-Plone.git
     region: oregon  # Choose the closest region
     plan: free
     envVars:
